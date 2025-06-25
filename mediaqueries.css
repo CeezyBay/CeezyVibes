@@ -280,9 +280,17 @@
         padding: 0;
     }
 
+    .home-container{
+        border-radius: 2rem;
+    }
+
     #footer{
         padding: 0;
         padding-top: 2rem;
+    }
+
+    .glass-footer{
+        padding: 0, 2rem;
     }
 
     .glass-footer{
@@ -296,11 +304,28 @@
 
     .footer-btn i{
         font-size: 3rem;
+        padding: 1;
+
+    }
+
+    .footer-btn{
+        height: 50px;
+        width: 50px;
+        /* overflow: hidden; */
     }
 
     .small-pic-logo p{
         left: 4rem;
     }
+
+    .quote-display{
+        padding-bottom: 0;
+    }
+
+    .quote-container{
+        height: 600px;
+    }
+
 }
 
 @media (max-width:320px){
