@@ -305,13 +305,14 @@
     .footer-btn i{
         font-size: 3rem;
         padding: 1;
-
+        height: 50px; width: 50px;
+        display: inline-block;
     }
 
     .footer-btn{
         height: 50px;
         width: 50px;
-        /* overflow: hidden; */
+        overflow: hidden;
     }
 
     .small-pic-logo p{
