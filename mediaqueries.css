@@ -1,0 +1,323 @@
+@media (max-width:1440px){
+    .nav-links{
+        gap: 2rem;
+    }
+    .quote-container{
+        max-width: 700px;
+        min-width: 450px;
+        width: 65%;
+    }
+    .card-info{
+        display: none;
+    }
+
+    .card-info-laptop{
+        display: flex;
+        flex-direction: column;
+        min-width: 300px;
+        width: 350px;
+        gap: 1.5rem;
+    }
+
+    .card-info-laptop-01{
+        display: flex;
+        width: 35vw;
+        font-size: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .card-info-laptop-02{
+        display: flex;
+        width: 35vw;
+        font-size: 1rem;
+    }
+
+    .bottom-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .big-action h1{
+        font-size: 2rem;
+    }
+
+    .catch-phrase p{
+        font-size: 1.2rem;
+    }
+
+    .small-pic-logo{
+        /* padding: 1.2rem; */
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+@media (max-width:768px){
+    .header-nav{
+        gap: 0;
+        padding: 0;
+    }
+    .nav-links{
+        display: none;
+    }
+
+    .nav-action{
+        margin-right: 0;
+    }
+
+    .nav-action a{
+        text-align: center;
+    }
+
+    #home{
+        padding: 0 2rem;
+    }
+
+    .number{
+        display: none;
+    }
+
+    .ceezy-logo-badge{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .ceezy-logo-badge h1{
+        display: contents;
+        color: black;
+        font-family: dosis;
+        font-size: 15rem;
+    }
+
+    .description-container{
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        gap: 1.5rem;
+    }
+
+    .description-01, .description-02{
+        width: 40vw;
+    }
+
+    .bottom-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-info-laptop{
+        width: 100%;
+    }
+
+    .card-info-laptop-01, .card-info-laptop-02{
+        width: 100%;
+    }
+
+    .quote-container{
+        width: 100%;
+    }
+
+    .new-vibe{
+        width: 60%;
+    }
+
+    .small-pic-logo{
+        width: 100px
+    }
+
+    .big-action h1{
+        font-size: 1.2rem;
+    }
+
+    .catch-phrase{
+        width: 20vw;
+        gap: 0;
+        display: none;
+    }
+
+    .catch-phrase p{
+        font-size: 0.8rem;
+    }
+
+    .search-bar{
+        width: 500px;
+    }
+
+    .card{
+        width: 500px;
+        height: 100%;
+    }
+
+    .card img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .glass-footer{
+        gap: 1rem;
+    }
+
+    .footer-btn{
+        font-size: 5rem;
+    }
+
+}
+
+@media (max-width:425px){
+    .logo-badge{
+        font-size: 3rem;
+    }
+
+    .nav-action a{
+        text-align: right;
+        padding-right: 3rem;
+        font-size: 3rem;
+    }
+
+    .home-container{
+        padding: 0;
+    }
+
+    .description{
+        display: none;
+    }
+
+    .ceezy-logo-badge{
+        text-align: center;
+    }
+
+    .top-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description-container{
+        width: 100%;
+    }
+
+    .description-01, .description-02{
+        width: 100%;
+    }
+
+    .contact-container{
+        padding-top: 2rem;
+    }
+
+    .bottom-container{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .bottom-container{
+        padding: 0;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .card{
+        width: 300px;
+    }
+
+    .search-bar{
+        width: 300px;
+    }
+
+    .card-info-laptop-01, .card-info-laptop-02{
+        flex-direction: column;
+        width: 300px;
+        gap: 2rem;
+    }
+
+    .quote-container{
+        width: 350px;
+        height: 500px;
+    }
+
+    .quote-container h1{
+        font-size: 2rem;
+        margin: 0;
+        margin-left: 3rem;
+    }
+
+    .quote-display{
+        font-size: 2rem;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        padding-right: 5.5rem;
+    }
+
+    .new-vibe{
+        bottom: 3rem;
+        width: 40vw;
+    }
+
+    .quote-container i{
+        bottom: 3rem;
+    }
+    .card-container{
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media(max-width:375px){
+    header{
+        padding: 0;
+        padding-bottom: 2rem;
+    }
+    #home{
+        padding: 0;
+    }
+
+    #footer{
+        padding: 0;
+        padding-top: 2rem;
+    }
+
+    .glass-footer{
+        height: 10vh;
+    }
+
+    .small-pic-logo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer-btn i{
+        font-size: 3rem;
+    }
+
+    .small-pic-logo p{
+        left: 4rem;
+    }
+}
+
+@media (max-width:320px){
+    .home-container{
+        border-radius: 1rem;
+    }
+    .card-info-laptop{
+        width: 250px;
+    }
+
+    .quote-container{
+        height: 450px;
+        width: 250px;
+        /* margin-bottom: 2rem */
+    }
+
+    .quote-container h1{
+        margin-left: 10rem;
+    }
+
+    .small-pic-logo p{
+        font-size: 0.5rem;
+    }
+}
