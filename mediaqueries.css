@@ -7,6 +7,10 @@
         min-width: 450px;
         width: 65%;
     }
+
+    .card-container{
+        overflow: visible;
+    }
     .card-info{
         display: none;
     }
